@@ -12,7 +12,7 @@ public class ReversedStringTest {
 
         @Test
         public void reverseTestWithDigits(){
-            Assert.assertEquals("cba321", ReverseString.reverseString("123abc"));
+            Assert.assertEquals("random", ReverseString.reverseString("123abc"));
             System.out.println("passed");
         }
 
